@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aroma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Café Aroma</h1>
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#produits">Produits</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h2>Bienvenue chez Café Aroma</h2>
+        <p>Découvrez nos cafés de qualité, torréfiés avec passion.</p>
+    </section>
+
+    <section id="produits">
+        <h2>Nos Produits</h2>
+        <div class="produits-container">
+            <div class="produit">
+                <img src="cafe1.jpg" alt="Café Arabica">
+                <h3>Café Arabica</h3>
+                <p>Un café doux avec des arômes fruités.</p>
+            </div>
+            <div class="produit">
+                <img src="cafe2.jpg" alt="Café Robusta">
+                <h3>Café Robusta</h3>
+                <p>Un café corsé et intense, parfait pour les matins.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form id="contactForm">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Café Aroma</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
